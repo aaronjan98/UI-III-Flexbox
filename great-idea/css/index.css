@@ -92,6 +92,7 @@ nav a{
 .secondline{
 	display: flex;
 	padding: 55px 0;
+	width: 100%;
 }
 .first{
 	display: flex;
@@ -122,37 +123,47 @@ h1{
 .thirdline{
 	border-top: 2px solid black;
 	padding: 40px 0px;
+	display: flex;
+	justify-content: flex-start;
+
 }
 #features{
 	width: 49%;
 	display: flex;
+	flex-direction: column;
 	padding-right: 40px;
 }
 #about{
 	width: 50%;
 	display: flex;
+	flex-direction: column;
 }
 /*fourth line*/
 .middle-img{
 	width: 100%;
+/*------ Bottom text... 5th line -----*/
 }
 .bottom{
 	border-bottom: 2px solid black;
 	padding: 50px 0;
+	display: flex;
 }
 #services{
 	width: 33%;
 	display: flex;
+	flex-direction: column;
 }
 #product{
 	width: 33%;
 	display: flex;
 	padding-left: 20px;
+	flex-direction: column;
 }
 #vision{
 	width: 33.3%;
 	display: flex;
 	padding-left: 20px;
+	flex-direction: column;
 }
 /* ----Contact----- */
 #contact{
@@ -162,4 +173,42 @@ footer{
 	width: 100%;
 	text-align: center;
 	margin: 100px;
+}
+/*~~~~~~~~~~~~~~~~~~code for Services page~~~~~~~~~~~~~~~~~~~~~~~*/
+/* navigation code reused from Home Page*/
+/*2nd line is just an image*/
+.services-header-img{
+	width: 100%;
+	padding-top: 30px;
+}
+/*Third Line: Services and a paragraph*/
+#services-page{
+	padding: 50px 0;
+	border-bottom: 1px solid black;
+}
+#services-page h2{
+	font-size: 30px;
+}
+
+/* ---------the 6 boxes---------- */
+.boxes{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+	margin: 50px 0;
+}
+.boxes .box{
+	background-color: rgb(240, 239, 239);
+	border: 1px solid black;
+	width: 49%;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+}
+.boxes .box .button{
+	background-color: white;
+	width: 120px;
+	padding: 5px 15px;
+	border: 1px solid black;
 }
