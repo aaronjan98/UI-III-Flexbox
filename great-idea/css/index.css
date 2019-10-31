@@ -64,3 +64,95 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body{
+	margin: 30px 70px;
+	 /* border: 2px solid grey;  */
+}
+#navigation{
+    width: 100%;
+} 
+nav{
+	display: flex;
+}
+nav a{
+	color: grey;
+	padding-right: 120px;
+	text-decoration: none;
+}
+.logo{
+	display: flex;
+	padding-left: 50px;
+}
+/*2nd line with "Innovation on Demand and code photo*/
+.secondline{
+	display: flex;
+	padding: 55px 0;
+}
+.first{
+	display: flex;
+	width: 49%;
+	text-align: center;
+	padding: 30px;
+}
+h1{
+	display: flex;
+	font-size: 6em;
+	text-align: center;
+}
+#button{
+	display: flex;
+	padding: 5px 32px;
+	border: 1px solid black;
+	margin: 20px;
+}
+#headerImg{
+	display: flex;
+	width: 100px;
+	padding-left: 300px;
+}
+/*-------third line--------*/
+.thirdline{
+	border-top: 2px solid black;
+	padding: 40px 0px;
+}
+#features{
+	width: 49%;
+	display: flex;
+	padding-right: 40px;
+}
+#about{
+	width: 50%;
+	display: flex;
+}
+/*fourth line*/
+.middle-img{
+	width: 100%;
+}
+.bottom{
+	border-bottom: 2px solid black;
+	padding: 50px 0;
+}
+#services{
+	width: 33%;
+	display: flex;
+}
+#product{
+	width: 33%;
+	display: flex;
+	padding-left: 20px;
+}
+#vision{
+	width: 33.3%;
+	display: flex;
+	padding-left: 20px;
+}
+/* ----Contact----- */
+#contact{
+	margin: 30px 0;
+}
+footer{
+	width: 100%;
+	text-align: center;
+	margin: 100px;
+}
