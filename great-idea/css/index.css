@@ -172,7 +172,7 @@ h1{
 footer{
 	width: 100%;
 	text-align: center;
-	margin: 100px;
+	margin: 20px;
 }
 /*~~~~~~~~~~~~~~~~~~code for Services page~~~~~~~~~~~~~~~~~~~~~~~*/
 /* navigation code reused from Home Page*/
@@ -192,23 +192,50 @@ footer{
 
 /* ---------the 6 boxes---------- */
 .boxes{
+	border-bottom: 2px solid black;
+	padding: 40px 0;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	align-content: space-between;
-	margin: 50px 0;
 }
 .boxes .box{
 	background-color: rgb(240, 239, 239);
 	border: 1px solid black;
-	width: 49%;
+	width: 48.5%;
 	padding: 20px;
 	display: flex;
 	flex-direction: column;
+	margin: 15px 0;
+
 }
 .boxes .box .button{
 	background-color: white;
 	width: 120px;
 	padding: 5px 15px;
 	border: 1px solid black;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 15px;
+}
+/*Bottom Section of the Services Page*/
+
+.Some-Facts{
+	margin: 50px 0;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.left{
+	width: 48.5%;
+	display: flex;
+	flex-direction: column;
+	padding-right: 20px;
+}
+.services-info-img{
+	width: 48.5%;
+	display: flex;
+	flex-wrap: wrap;
 }
