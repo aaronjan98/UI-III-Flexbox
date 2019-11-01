@@ -85,7 +85,6 @@ nav a{
 	display: flex;
 }
 .logo{
-	display: flex;
 	width: 20%;
 }
 /*2nd line with "Innovation on Demand and code photo*/
@@ -176,6 +175,9 @@ footer{
 }
 /*~~~~~~~~~~~~~~~~~~code for Services page~~~~~~~~~~~~~~~~~~~~~~~*/
 /* navigation code reused from Home Page*/
+.logo-services{
+	width: 80%;
+}
 /*2nd line is just an image*/
 .services-header-img{
 	width: 100%;
@@ -233,6 +235,13 @@ footer{
 	display: flex;
 	flex-direction: column;
 	padding-right: 20px;
+}
+.left ul{
+	list-style-type: square;
+	margin: 20px;
+}
+.left ul li{
+	padding: 10px 0;
 }
 .services-info-img{
 	width: 48.5%;
